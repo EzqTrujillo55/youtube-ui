@@ -18,7 +18,11 @@ i {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  border-bottom: 1px solid #909090;
+
+  position: fixed;
+  right: 0;
+  width: 90%;
+  background-color: #212121;
 }
 
 .menu-logo-container {
@@ -82,7 +86,8 @@ i {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  margin-left: 10%;
+  margin-left: 11%;
+  padding-top: 5%;
 }
 
 .video-container {
@@ -133,4 +138,34 @@ i {
 
 .profile-pic {
   border-radius: 50%;
+}
+
+.sider {
+  height: 200px;
+  background-color: #212121;
+  width: 10%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 2;
+  height: 100%;
+}
+
+.logo-menu-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 4.2rem;
+}
+
+.menu-options {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 2rem;
+  margin: 0 auto;
 }
